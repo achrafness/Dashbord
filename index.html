@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+     <!-- render ALL ELEMENTS  NORMALY -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome Library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- My framework -->
+    <link rel="stylesheet" href="css/Myframework.css">
+    <!-- Main template CSS  File -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-relative">
+            <h3 class="p-relative txt-c mt-0">Achraf</h3>
+            <ul>
+                <li>
+                <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                  <i class="fa-regular fa-chart-bar fa-fw"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="to-do.html">
+                  <i class="fa-regular fa-circle-check fa-fw"></i>
+                  <span>To-do</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                  <i class="fa-solid fa-gear fa-fw"></i>
+                  <span>Settings</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                  <i class="fa-regular fa-user fa-fw"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                  <i class="fa-solid fa-diagram-project fa-fw"></i>
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                  <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                  <span>Courses</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                  <i class="fa-regular fa-circle-user fa-fw"></i>
+                  <span>Friends</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                  <i class="fa-regular fa-credit-card fa-fw"></i>
+                  <span>Plans</span>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="conetent w-full">
+            <!-- start head  -->
+            <div class="head bg-white p-15 bwe-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="p-relative notif">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/avatar.png" >
+                </div>
+            </div>
+            <!-- end head  -->
+            <h1 class="p-relative">Dashbord</h1>
+            <div class="wrapper d-grid gap-20">
+              <div class="welcome bg-white rad-10 txt-c-mobile block-mobile p-relative">
+                <div class="intro p-20 d-flex s-between bg-eee">
+                  <div>
+                    <h2 class="m-0">Welcome</h2>
+                    <p class="c-grey mt-5">Achraf</p>
+                  </div>
+                  <img class="hide-mobile" src="./images/Untitled.png" alt="" />
+                </div>
+                <img src="./images/avatar.png" class="avatar" alt="">
+                <div class="body txt-c d-flex p-20 mt-20 mb-20 block-mobile s-between">
+                  <div>Achraf Nessighaoui<span class="d-block c-grey fs-14 mt-10">Developer</span></div>
+                  <div>4<span class="d-block c-grey fs-14 mt-10">Projects</span></div>
+                  <div>$0 <span class="d-block c-grey fs-14 mt-10">Earned</span></div>
+                </div>
+                <a href="profile.html" class="btn-shape visit d-block fs-14 bg-blue c-white w-fit btn-shape">Profile</a>
+              </div>
+              <!-- start quick draft  -->
+              <div class="quick-draft bg-white p-20 rad-10">
+                <h2 class="mt-0 mb-10 ">Quick Draft</h2>
+                <p class="mt-0 mb-20 c-grey fs-14">Write a Draft For Your  Ideas</p>
+                <form action="">
+                  <input class="d-block mb-20 w-full b-none bg-eee rad-6 pl-10" type="text" placeholder="Title">
+                  <textarea class="d-block mb-20 w-full b-none bg-eee rad-6 pl-10" placeholder="Your Thought"></textarea>
+                  <input class="d-block save fs-14 bg-blue c-white b-none w-fit btn-shape" type="submit" value="save">
+                </form>
+              </div>
+              <!-- end quick draft  -->
+              <!-- start target -->
+              <div class="target p-20 rad-10 bg-white ">
+                <h2 class="mt-0 mb-10 ">Yearly Targets</h2>
+                <p class="mt-0 mb-20 c-grey fs-14">Targets Of The Year</p>
+                <div class="target-row projects  d-flex align-center mb-20">
+                  <div class="icon center-flex">
+                    <i class="fa-solid fa-code fa-lg c-blue"></i>
+                  </div>
+                  <div class="details">
+                    <spa class="c-grey fs-14">Projects</spa>
+                    <span class="d-block mt-5 mb-10 fw-bold">10</span>
+                    <div class="progress p-relative">
+                      <span  class="bg-blue projects" style="width: 40%">
+                      <span class="bg-blue">40%</span>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="target-row learn-back  d-flex align-center mb-20">
+                  <div class="icon center-flex">
+                    <i class="fa-solid fa-server fa-lg c-orange"></i>
+                  </div>
+                  <div class="details">
+                    <spa class="c-grey fs-14">Back-end</spa>
+                    <span class="d-block mt-5 mb-10 fw-bold">18H</span>
+                    <div class="progress p-relative">
+                      <span  class="bg-orange learn-back" style="width: 30%">
+                      <span class="bg-orange">30%</span>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="target-row lang  d-flex align-center mb-20">
+                  <div class="icon center-flex">
+                    <i class="fa-solid fa-language fa-lg c-green"></i>
+                  </div>
+                  <div class="details">
+                    <spa class="c-grey fs-14">language</spa>
+                    <span class="d-block mt-5 mb-10 fw-bold">2</span>
+                    <div class="progress p-relative">
+                      <span  class="bg-green lang" style="width: 50%">
+                      <span class="bg-green">50%</span>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end target  -->
+              <!-- start static -->
+              <div class="static p-20 bg-white rad-10">
+                <h2 class="mt-0 mb-10">Projects Statistics</h2>
+                <p class="mt-0 mb-20 c-grey  fs-14">Everything About Projects</p>
+                <div class="f-wrap txt-c gap-20 d-flex">
+                  <div class="box  c-grey rad-10 p-20  fs-13">
+                    <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"></i>
+                    <span class="d-block c-black fw-bold fs-25 mb-5">6</span>
+                      Total
+                  </div>
+                  <div class="box  c-grey rad-10 p-20  fs-13">
+                    <i class="fa-solid fa-spinner fa-2x mb-10 c-blue"></i>
+                    <span class="d-block c-black fw-bold fs-25 mb-5">1</span>
+                      Total
+                  </div>
+                  <div class="box  c-grey rad-10 p-20  fs-13">
+                    <i class="fa-regular fa-circle-check fa-2x mb-10 c-green"></i>
+                    <span class="d-block c-black fw-bold fs-25 mb-5">2</span>
+                      Total
+                  </div>
+                  <div class="box  c-grey rad-10 p-20  fs-13">
+                    <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+                    <span class="d-block c-black fw-bold fs-25 mb-5">3</span>
+                      Total
+                  </div>
+                </div>
+              </div>
+              <!-- end static -->
+              <!-- start news  -->
+              <div class="news bg-white rad-10 txt-c-mobile p-20">
+                <h2 class="mt-0 mb-20">Latest News</h2>
+                <div class="news-row d-flex align-center ">
+                  <img src="images/News-1.png" alt="">
+                  <div class="info">
+                    <h3 >Snapchat</h3>
+                    <p class="m-0 fs-14 c-grey">Snapchat users freak out over AI bot that had a mind of its own </p>
+                  </div>
+                  <div class="btn-shape fs-13 bg-eee label w-fit">3 day ago</div>
+                </div> 
+                <div class="news-row d-flex align-center ">
+                  <img src="images/news-3.png" alt="">
+                  <div class="info">
+                    <h3 >X(twitter)</h3>
+                    <p class="m-0 fs-14 c-grey"> X appears to slow load times for links to several news outlets and rival platforms </p>
+                  </div>
+                  <div class="btn-shape fs-13 bg-eee label w-fit">3 day ago</div>
+                </div> 
+                <div class="news-row d-flex align-center ">
+                <img src="images/News-2.avif" alt="">
+                <div class="info">
+                  <h3 >ChatGPT</h3>
+                  <p class="m-0 fs-14 c-grey">Schools are teaching ChatGPT, so students arent left behind</p>
+                </div>
+                <div class="btn-shape fs-13 bg-eee label w-fit">2 day ago</div>
+                </div> 
+                <div class="news-row d-flex align-center ">
+                <img src="images/news-4.jpeg" alt="">
+                <div class="info">
+                  <h3 >watchdog</h3>
+                  <p class="m-0 fs-14 c-grey">US watchdog teases crackdown on data brokers that sell Americans’ personal information</p>
+                </div>
+                <div class="btn-shape fs-13 bg-eee label w-fit">1 day ago</div>
+                </div>                                             
+                </div>
+              <!-- end news  -->
+              <!-- start search  -->
+              <div class="search bg-white p-20 rad-10 ">
+                <h2 class="mt-0 mb-20 ">Top Search domain in CS </h2>
+                <div class="items-head d-flex s-between c-grey mb-10">
+                  <div>Keyword</div>
+                  <div>Search Count</div>
+                </div>
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Artificial Intelligence</span>
+                  <span class="bg-eee fs-13 btn-shape">909.5K</span>
+                </div>
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Blockchain</span>
+                  <span class="bg-eee fs-13 btn-shape">812.0K</span>
+                </div>
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Data Science</span>
+                  <span class="bg-eee fs-13 btn-shape">523.2K</span>
+                </div>
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Cybersecurity</span>
+                  <span class="bg-eee fs-13 btn-shape">510.7K</span>
+                </div>
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Cloud Computing</span>
+                  <span class="bg-eee fs-13 btn-shape">371.6K</span>
+                </div>                 
+                <div class="items d-flex s-between pt-15 pb-15">
+                  <span>Human-Computer Interaction</span>
+                  <span class="bg-eee fs-13 btn-shape">18k</span>
+                </div> 
+            
+              </div>
+              <!-- end search  -->
+              <!-- start Social Media Stats  -->
+              <div class="social bg-white p-20 rad-10 ">
+                <h2 class="mt-0 mb-20 ">Social Media Stats</h2>
+                <div class="box-s  twitter p-15 p-relative mb-10 bwe-flex w-full">
+                  <i class="fa-brands fa-twitter fa-2x c-white  bg-blue h-full center-flex "></i>
+                  <span>achrafness</span>
+                  <a class="fs-13 c-white btn-shape bg-blue" href="https://twitter.com/achrafness">Follow</a>
+                </div>
+                <div class="box-s facebook p-15 p-relative mb-10 bwe-flex w-full">
+                  <i class="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"></i>
+                  <span>achraf Ness</span>
+                  <a class="fs-13 c-white btn-shape bg-blue" href="https://www.facebook.com/achraf.nessighaoui.9/">Like</a>
+                </div>
+                <div class="box-s github p-15 p-relative mb-10 bwe-flex w-full ">
+                  <i class="fa-brands fa-github fa-2x c-white h-full center-flex"></i>
+                  <span>achrafness</span>
+                  <a class="fs-13 c-white btn-shape" href="https://github.com/achrafness">Subscribe</a>
+                </div>
+                <div class="box-s linkedin p-15 p-relative mb-10 bwe-flex w-full">
+                  <i class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+                  <span>Achraf Abdelouadoud Nessighaoui</span>
+                  <a class="fs-13 c-white btn-shape" href="https://www.linkedin.com/in/achraf-abdelouadoud-nessighaoui-790140256/">Follow</a>
+                </div>
+                <div class="box-s instagram p-15 p-relative mb-10 bwe-flex w-full">
+                  <i class="fa-brands fa-instagram fa-2x c-white h-full center-flex"></i>
+                  <span>achrafness</span>
+                  <a class="fs-13 c-white btn-shape" href="https://www.instagram.com/achrafness/">Follow</a>
+                </div>
+
+              </div>
+              <!-- end Social Media Stats -->
+              <!-- start  project progress -->
+              <div class="project-progress  bg-white p-20 rad-10 p-relative">
+                <h2 class="mt-0 mb-20 ">Social Media Stats</h2>
+                <ul class="m-0 p-relative">
+                  <li class="mt-25 d-flex align-center done">Got The Project</li>
+                  <li class="mt-25 d-flex align-center done">Started The Project</li>
+                  <li class="mt-25 d-flex align-center current">Publish the project</li>
+                  <li class="mt-25 d-flex align-center">Update the project</li>
+                  <li class="mt-25 d-flex align-center">Finish The Project</li>
+                </ul>
+              </div>
+              <!-- end project progress -->
+            </div>
+            <div class="projects-table bg-white p-15 m-20 rad-10">
+              <h2 class="mt-0 mb-10">Projects</h2>
+              <div class="res-table">
+                <table class="w-full fs-15">
+                  <thead>
+                    <tr>
+                      <td id="Number">Number</td>
+                      <td id="Name">Name</td>
+                      <td id="Finish">Finish date</td>
+                      <td id="Language">Language</td>
+                      <td id="Team">Team</td>
+                      <td id="statue">statue</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Leon</td>
+                      <td>17 mars 2023</td>
+                      <td>
+                        <span class="html btn-shape bg-orange c-white">html</span>
+                        <span class="css btn-shape bg-blue c-white">css</span>
+                      </td>
+                      <td><img src="./images/avatar.png" ></td>
+                      <td>
+                        <span class="completed bg-green btn-shape c-white">Completed</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Kasper</td>
+                      <td>27 april 2023</td>
+                      <td>
+                        <span class="html btn-shape bg-orange c-white">html</span>
+                        <span class="css btn-shape bg-blue c-white">css</span>
+                        <span class="js btn-shape bg-yellow c-black">js</span>
+                      </td>
+                      <td><img src="./images/avatar.png" ></td>
+                      <td>
+                        <span class="completed bg-green btn-shape c-white">Completed</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Dashbord</td>
+                      <td>NOT FINISH</td>
+                      <td>
+                        <span class="html btn-shape bg-orange c-white">html</span>
+                        <span class="css btn-shape bg-blue c-white">css</span>
+                        <span class="js btn-shape bg-yellow c-black">js</span>
+                      </td>
+                      <td><img src="./images/avatar.png" ></td>
+                      <td>
+                        <span class="in-progress bg-blue btn-shape c-white">in progress</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
