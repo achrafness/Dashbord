@@ -37,6 +37,7 @@ ul{
 .page{
   min-height: 100vh;
   background-color: #f1f5f9;
+  min-width: 100%;
 }
 a{
   text-decoration: none;
@@ -105,7 +106,7 @@ a{
 /* end slidebar  */
 /* start content  */
 /* start head  */
-.content{
+.conetent{
   overflow: hidden;
 }
 
@@ -168,6 +169,7 @@ a{
   width: 120px;
 }
 .wrapper {
+  max-width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   margin-left: 20px;
   margin-right: 20px;
@@ -186,7 +188,6 @@ a{
 .welcome{
   overflow: hidden;
 }
-
 .welcome .intro img{
   width: 170px;
   margin-bottom: -10px;
@@ -524,3 +525,100 @@ from{
   border-right: 1px #eee solid;
 }
 /* end project table  */
+/* start profile */
+.profile .avatar-profile{
+  width: 300px;
+  border-bottom: 1px solid #eee;
+}
+.profile .overview{
+flex-direction: column;}
+
+@media (min-width: 767px) {
+  .profile .avatar-profile{
+    border-right: 1px solid #eee;
+    border-bottom: transparent;
+  }
+  .profile .overview{
+    flex-direction: row;
+  }
+  }
+.profile .avatar-profile img{
+  height: 120px;
+  width: 120px;
+}
+.profile .info .box-profile{
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  transition: .3s;
+}
+.profile .info .box-profile > div{
+  padding: 10px 0  0;
+}
+.profile .info .box-profile > div{
+  min-width: 150px;
+}
+@media (min-width: 767px) {
+  .profile .info .box-profile > div{
+    min-width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .info .box-profile h4{
+    font-size: 13px;
+  }
+  .info .box-profile span {
+    font-size: 11px;
+  }
+}
+.profile .info .box-profile:hover{
+  background-color: #f9f9f9;
+}
+.profile .box-profile  h4{
+  font-weight: normal;
+}
+.profile .skills ul li span{
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #eee;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 6px;
+}
+@media (max-width: 767px) {
+  .profile .other-data {
+    flex-direction: column;
+  }
+}
+.profile .other-data .activities{
+  flex-grow: 1;
+}
+.profile .other-data .activity:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.profile .other-data .activity img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+@media (min-width: 768px) {
+  .profile .activity .date {
+    margin-left: auto;
+    text-align: right;
+  }
+}
+@media (max-width: 767px) {
+  .profile .other-data .activity {
+    flex-direction: column;
+  }
+  .profile .other-data .activity img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .profile .other-data .activity .date {
+    margin-top: 15px;
+  }
+}
+/* end profile */

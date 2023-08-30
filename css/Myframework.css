@@ -136,6 +136,9 @@
 .rad-10{
     border-radius: 10px;
 }
+.rad-half{
+    border-radius: 50%;
+}
 .b-none{
     border: none;
 }

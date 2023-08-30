@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+     <!-- render ALL ELEMENTS  NORMALY -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome Library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- My framework -->
+    <link rel="stylesheet" href="css/Myframework.css">
+    <!-- Main template CSS  File -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-relative">
+            <h3 class="p-relative txt-c mt-0">Achraf</h3>
+            <ul>
+                <li>
+                <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                  <i class="fa-regular fa-chart-bar fa-fw"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="to-do.html">
+                  <i class="fa-regular fa-circle-check fa-fw"></i>
+                  <span>To-do</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                  <i class="fa-solid fa-gear fa-fw"></i>
+                  <span>Settings</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                  <i class="fa-regular fa-user fa-fw"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                  <i class="fa-solid fa-diagram-project fa-fw"></i>
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                  <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                  <span>Courses</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                  <i class="fa-regular fa-circle-user fa-fw"></i>
+                  <span>Friends</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                  <i class="fa-regular fa-credit-card fa-fw"></i>
+                  <span>Plans</span>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="conetent w-full">
+            <!-- start head  -->
+            <div class="head bg-white p-15 bwe-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="p-relative notif">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/avatar.png" >
+                </div>
+            </div>
+            <!-- end head  -->
+            <h1 class="p-relative">Profile</h1>
+            <div class="profile m-20 ">
+                <div class="overview bg-white rad-10 d-flex align-center">
+                    <div class="avatar-profile txt-c p-20">
+                        <img class="rad-half mb-10" src="./images/avatar.png" alt="">
+                        <h3 class="m-0">Achraf Nessighaoui</h3>
+                        <p class="c-grey mt-10">Student</p>
+                        <div class="starts mt-10 mb-10">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                        </div>
+                        <p class="c-grey fs-13">1 rating</p>
+                    </div>
+                    <div class="info">
+                        <div class="box-profile  p-20 d-flex align-center ">
+                            <h4 class="fs-15 c-grey m-0 w-full">Generale Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Full Name:</span>
+                                <span>Achraf Nessighaoui</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">country:</span>
+                                <span>Algeria</span>
+                            </div>
+                        </div>
+                        <div class="box-profile  p-20 d-flex align-center ">
+                            <h4 class="fs-15 c-grey m-0 w-full">Personal Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Email:</span>
+                                <span>achraf.nessighaoui13@gmail.com</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">status:</span>
+                                <span>online</span>
+                            </div>
+                        </div>
+                        <div class="box-profile  p-20 d-flex align-center ">
+                            <h4 class="fs-15 c-grey m-0 w-full">Job Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Title:</span>
+                                <span>Full stack Developer</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Programming Language:</span>
+                                <span>Javascript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-data d-flex gap-20 w-full">
+                    <div class="skills p-20 bg-white rad-10 mt-20">
+                        <h2 class="mt-0 mb-10">My Skills</h2>
+                        <p class="mt-0 mb-20 c-grey fs-15">Complete Skills List</p>
+                        <ul class="m-0 txt-c-mobile">
+                          <li><span>HTML</span><span>Pugjs</span><span>HAML</span></li>
+                          <li><span>CSS</span><span>SASS</span><span>Stylus</span></li>
+                          <li><span>JavaScript</span><span>TypeScript</span></li>
+                          <li><span>Vuejs</span><span>Reactjs</span></li>
+                          <li><span>Jest</span><span>Jasmine</span></li>
+                          <li><span>PHP</span><span>Laravel</span></li>
+                          <li><span>Python</span><span>Django</span></li>
+                        </ul>
+                    </div>
+                    <div class="activities p-20 bg-white rad-10 mt-20">
+                        <h2 class="mt-0 mb-10">Latest Activities</h2>
+                        <p class="mt-0 mb-20 c-grey fs-15">Latest Activities Done By The User</p>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                          <img src="images/activity-02.png" alt="">
+                          <div class="info">
+                            <span class="d-block mb-10">learning</span>
+                            <span class="c-grey">learn Python Course</span>
+                          </div>
+                          <div class="date">
+                            <span class="d-block mb-10">16:10</span>
+                            <span class="c-grey">Today</span>
+                          </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="images/activity-01.png" alt="">
+                            <div class="info">
+                              <span class="d-block mb-10">certificate</span>
+                              <span class="c-grey">get JavaScript certificate</span>
+                            </div>
+                            <div class="date">
+                              <span class="d-block mb-10">16:10</span>
+                              <span class="c-grey">Today</span>
+                            </div>
+                          </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                          <img src="images/activity-02.png" alt="">
+                          <div class="info">
+                            <span class="d-block mb-10">learning</span>
+                            <span class="c-grey">first project in back-end</span>
+                          </div>
+                          <div class="date">
+                            <span class="d-block mb-10">11:05</span>
+                            <span class="c-grey">Yesterday</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
